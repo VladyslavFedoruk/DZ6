@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="fullform">
+            <h1>Вітаю, любий друже!</h1>
+            <form id="forms" method="post">
+
+            <!--Ім'я-->
+            <div class="form-flex">
+                    <div class="form-input">
+                <label class="display-block" for="firstname">Ім'я </label>
+                <input  id="firstname" type="text" required maxlength="20">
+            </div>
+
+                <!--Пoчта-->
+                    <div class="form-input" >
+                <label class="display-block" for="email">E-mail </label>
+                <input type="email" id="email" required maxlength="35"> 
+            </div>
+        </div>
+
+                <!--Пароль-->
+                <div class="form-flex">
+                    <div class="password">
+                <label class="display-password" for="firstpass">Пароль</label>
+                <input id="firstpass" type="password" required  maxlength="15" minlength="7">
+            </div>
+
+                <!--Підтвердження-->
+                    <div class="password">
+                <label class="display-password" for="confirm">Підтвердження пароля</label>
+                <input id="confirm" type="password" required  maxlength="15" minlength="7">
+                </div>
+            </div>
+
+                <!--Гендер-->
+                    <div class="form-radio">
+                    <p class="gender-name">Стать</p>
+                    <input class="gender" type="radio" id="gender1" name="sex" value="male" checked>
+                    <label for="gender1">Чоловік</label>
+                    <input class="gender" type="radio" id="gender2" name="sex" value="female">
+                    <label  for="gender2">Жінка</label>
+                    <input class="gender" type="radio" id="gender3" name="sex" value="other">
+                    <label  for="gender3">Інші</label>
+                </div>
+
+                <!--Вік-->
+                <div class="form-flex">
+                <div class="form-age-courses">
+                    <div class="form-age">
+                    <label class="age-courses" for="age">Вік</label>
+                     <input type="number" id="age" width="50" required min="18" max="100">
+                </div>
+
+                <!--Курси-->
+                <div class="form-list">
+                <label class="age-courses" for="courses">Курси</label>
+                <select name="courses" id="courses" required>
+                <option value="eng" selected>English</option>
+                <option value="it">IT</option>
+                <option value="math">Math</option>
+                <option value="vr">VR-life</option>
+                <option value="swimming">Swimming</option>
+                </select>
+                </div>
+                </div>
+
+                <!--Додаткова інформація-->
+                <div class="additional-text">
+               <label for="text">Додаткова інформація <br></label>
+                <textarea name="textarea" id="text" cols="32" rows="4"></textarea>
+                </div>
+            </div>
+
+               <!--Privacy Policy-->
+               <div class="form-box">
+               <input type="checkbox" id="privacy-policy" required>
+               <label id="boxfont" for="privacy-policy">By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a>
+                and <a href="#">Privacy Policy</a></label>
+            </div>
+    
+
+                <!--Кнопки-->
+                <div class="buttons">
+                    <button class="reset-button" type="reset">Очистити форму</button>
+                    <button type="submit">Зареєструватися</button>
+                </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

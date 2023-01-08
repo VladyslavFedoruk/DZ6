@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    main{
+        background: rgb(68, 63, 63);
+        height: 100vh;
+        align-items: center;
+padding-top: 150px;
+    }
+
+.fullform{
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto;   
+    background-color:rgb(225, 228, 222);
+    padding: 35px 36px 16px 36px;
+    border-radius: 8px;
+}
+
+label{
+    font-size: 14px;
+}
+
+#boxfont{
+    font-size: 12px;
+}
+
+textarea{
+    max-width: 100%;
+    min-height: auto;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+#privacy-policy{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    text-align: center;
+    margin-left: 12px;
+}
+
+.form-flex{
+ display: flex;  
+ align-items: center; 
+}
+
+.form-input{
+margin-left: 10px;
+margin-bottom: 12px;
+}
+
+.password{
+ margin-left: 10px;
+margin-bottom: 12px;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-password{
+    display: block;
+}
+
+.form-radio{
+    margin-left: 10px;
+}
+
+.gender-name{
+    margin-bottom: 8px;
+}
+
+.gender{
+margin-left: 10px;
+margin-bottom: 12px;
+}
+
+.form-age{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-list{
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.age-courses{
+ display: block;   
+}
+
+.additional-text{
+    margin-left: 20px;
+}
+
+.form-box{
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+a{
+text-decoration:none;
+color: rgb(0, 47, 255);
+}
+
+.reset-button{
+    margin-right: 10px;
+}
